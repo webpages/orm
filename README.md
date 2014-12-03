@@ -24,5 +24,9 @@ Syntax overview
 # return all objects, ordered by default field
 >>> User.find()
 # find objects by criteria
->>> User.find(F.name='Tony' and (F.age>18 and F.age<35) and (F.is_admin=True or F.role.name.in('admin', 'nmanager')))
+>>> User.find(
+>>>     F.name='Tony' and
+>>>     (F.age>18 and F.age<35) and
+>>>     (F.is_admin=True or F.role.name.in('admin', 'manager'))
+>>> )
 ```
