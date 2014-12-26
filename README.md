@@ -6,6 +6,12 @@ ORM for WebPages
 This ORM can be used independently, but originally designed to use with [WebPages python web framework](https://github.com/webpages/webpages).
 
 
+News
+---
+
+ * In **Dec 2014** [PostgreSQL 9.4](http://www.postgresql.org/about/news/1557/) brings JSON field type support. We like this and will use this feature in our ORM
+
+
 Syntax overview
 ---
 
